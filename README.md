@@ -16,7 +16,8 @@ This approach is tailored for scenarios where the labeled target domain data is 
 1. **Integration of Classification Loss**: Guides the model to learn discriminative features by leveraging labeled data from both domains.
 2. **Domain Loss**: Encourages learning of domain-invariant features to improve generalization across domains.
 3. **Dual Supervised Loss**: Facilitates better feature representation and improves classification performance, even with limited labeled target domain data.
-
+## Model Architecture
+![Model Architecture](DANN_Figure.png)
 ## Advantages
 - **Unified Feature Space**: Ensures effective feature representation for both domains.
 - **Domain-Invariant Features**: Promotes better generalization across domains.
